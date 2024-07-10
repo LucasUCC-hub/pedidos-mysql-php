@@ -1,0 +1,19 @@
+body {
+    background-color: #343a40; /* Fondo oscuro */
+    color: rgb(250, 250, 250);
+}
+
+.table {
+    background-color: white;
+}
+
+.table thead th {
+    border-bottom: 2px solid #222324;
+}
+.table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff; /* Color alternativo para filas impares */
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #c9c9c9; /* Color alternativo para filas pares */
+}

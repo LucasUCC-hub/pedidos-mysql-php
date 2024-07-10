@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Pedidos</h1>
+        <form class="form-inline justify-content-center mb-4">
+            <div class="form-group">
+                <label for="campo" class="mr-2">Buscar: </label>
+                <input name="campo" id="campo" type="text" class="form-control" placeholder="Ej: Carlos Camilo">
+            </div>
+        </form>
+        <a class="btn btn-primary mb-2" href="nuevo-pedido.html">+ Nuevo pedido</a>
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Titular</th>
+                    <th>DNI</th>
+                    <th>Mesa</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="contenido">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
